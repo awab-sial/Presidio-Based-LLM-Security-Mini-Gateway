@@ -8,9 +8,9 @@ A modular security gateway that protects LLM-based systems from prompt injection
 ## Architecture
 
 ```
-User Input
-    │
-    ▼
+    User Input
+        │
+        ▼
 ┌─────────────────────┐
 │  Injection Detector │  ← Llama Prompt Guard 2 (86M)
 │  (injection_score)  │
@@ -155,14 +155,14 @@ llm_security_gateway/
 └── evaluation/
     ├── evaluate.py            # Structured evaluation tables
     └── evaluation_results.json
+└── report/
+    └── Presidio_Based_LLM_Security_Mini_Gateway.pdf            # Latex Report
 ```
 
 ---
 
 ## Academic Integrity
 
-This project was developed independently as part of CEN-451 Assignment 2 at Bahria University. All implementation decisions, design choices, and written content are the original work of the submitting student.
+This project was developed independently as part of Information Security Assignment 2 at Bahria University. All implementation decisions, design choices, and written content are the original work of Muhammad Awab Sial 
 
 ---
-
-*Built with [Llama Prompt Guard 2](https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M) by Meta and [Microsoft Presidio](https://microsoft.github.io/presidio/).*
