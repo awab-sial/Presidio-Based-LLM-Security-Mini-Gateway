@@ -1,0 +1,7 @@
+{
+  "model_name": "meta-llama/Llama-Prompt-Guard-2-86M",
+  "injection_threshold": 0.5,
+  "presidio_score_threshold": 0.4,
+  "block_threshold": 0.75,
+  "mask_threshold": 0.4
+}
